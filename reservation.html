@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<html>
+	<head>
+
+		<script type="text/javascript" src="book.js"> 
+		</script>
+		<link rel="stylesheet" href="busStyle.css" type="text/css" />
+	</head>
+
+	
+	<body>
+		<div id="content">
+		<img src="logo.png" alt="Blackhound" height="300" width="300">
+		<form name="reservation">
+			<p>First Name <input type="text" id="firstName" /></p>
+			<p>Last Name <input type="text" id="lastName" /></p>
+			<input type="radio" name="city" value="40" id="lou">St Louis - $40
+			<input type="radio" name="city" value="20" id="mil"> Milwaukee - $20
+			<input type="radio" name="city" value="35" id="det"> Detroit - $35
+			<br>
+			<br>
+			<input type="radio" name="hotel" value="50" id="eco"> Economy - $50/day
+			<input type="radio" name="hotel" value="70" id="stan"> Standard - $70/day
+			<input type="radio" name="hotel" value="120" id="up"> Upscale - $120/day
+			<br>
+			<br>
+			Number of travelers: <select name="travelers" id="trav"> 
+  				<option value="1">1</option>
+  				<option value="2">2</option>
+  				<option value="3">3</option>
+  				<option value="4">4</option>
+			</select>
+			<br>
+			<br>
+			Number of days: 
+			<select name="days" id="days"> 
+  				<option value="2">2</option>
+  				<option value="3">3</option>
+  				<option value="4">4</option>
+  				<option value="5">5</option>
+  				<option value="6">6</option>
+  				<option value="7">7</option>
+			</select>
+			<br>
+			<input type="checkbox" name="wifi" id="wifi" value="10"> $10 Wifi<br>
+			<input type="checkbox" name="recSeat" value="20" id="recSeat"> $20 Fully reclining seat
+			<br>
+			<input type="radio" name="meal" value="5" id="meal"> $5 snack
+			<input type="radio" name="meal" value="10" id="meal"> $10 Full Meal
+			<input type="radio" name="meal" value="0" id="meal"> None
+			<p>Special Requests:</p> <input type="text" id="request" />
+			<input type="button" value="Book my trip" onclick="book()">
+
+		</form>
+
+		<p id='bookOut'> </p>
+		</div>
+		
+		<div id="nav">
+			<a href="reservation.html">Make a Reservation</a>
+			<a href="contact.html">Contact Us</a>
+			<a href="mailing.html">Join Our Mailing List</a>
+			<a href="busline_home.htm">Home</a>
+		</div>
+	</body>
+	<footer>
+		Blackhound Busses: 345-555-0987 600 Libberstein St.
+	
+	</footer>
+	</html>
+
+
