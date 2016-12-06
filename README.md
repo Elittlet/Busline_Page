@@ -1,2 +1,3 @@
 # Busline_Page
-Mock page for a fictional busline
+Mock webpage for a fictional busline
+Written in HTML/CSS/Javascript
